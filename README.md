@@ -22,3 +22,40 @@ pip install -r requirement
 ```
 
 ## Usage
+Next, we provide some reference scripts to guide how to evaluate the security performance of LLMs based on SG-Bench.
+
+### Open-end Generation
+```
+CUDA_VISIBLE_DEVICES=1 python main_test.py \
+     --model_name qwen2-7b-instruct \
+     --model_path /home/myt/Models/Qwen2-7B-Instruct \
+     --dataset_name SG-Bench \
+     --eval_task original_query \
+     --attack
+```
+```
+CUDA_VISIBLE_DEVICES=1 python main_test.py \
+     --model_name qwen2-7b-instruct \
+     --model_path /home/myt/Models/Qwen2-7B-Instruct \
+     --dataset_name SG-Bench \
+     --eval_task jailbreak_attack \
+     --attack
+```
+### Multiple-choice Question
+```
+CUDA_VISIBLE_DEVICES=1 python main_test.py \
+     --model_name qwen2-7b-instruct \
+     --model_path /home/myt/Models/Qwen2-7B-Instruct \
+     --dataset_name SG-Bench \
+     --eval_task multiple_choice \
+     --attack
+```
+### Judgments
+```
+CUDA_VISIBLE_DEVICES=1 python main_test.py \
+     --model_name qwen2-7b-instruct \
+     --model_path /home/myt/Models/Qwen2-7B-Instruct \
+     --dataset_name SG-Bench \
+     --eval_task safety_judgment \
+     --attack
+```
