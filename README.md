@@ -4,7 +4,7 @@ This is the official implementation of "**SG-Bench: Evaluating LLM Safety Genera
 SG-Bench is a multi-dimensional safety evaluation Benchmark to evaluate LLM Safety Generalization across diverse test tasks and prompt types, which includes three types of test tasks: open-end generation, multiple-choice questions and safety judgments, and covers multiple prompt engineering and jailbreak attack techniques.
 
 ## 📚 Resources
-- **[Paper]([https://arxiv.org/pdf/2403.12171.pdf](https://arxiv.org/abs/2410.21965)):** Details the evaluation benchmark design and key experimental results.
+- **[Paper](https://arxiv.org/abs/2410.21965):** Details the evaluation benchmark design and key experimental results.
 
 ## Contents
 - [Install](#install)
