@@ -65,3 +65,14 @@ CUDA_VISIBLE_DEVICES=1 python main_test.py \
 There are a few parameters to note here: When you need to perform LLM inference, set --attack; when you need to evaluate the LLM generated content, set --evaluation
 
 
+## 🖊️ Citing Info
+
+```bibtex
+@article{mou2024sg,
+  title={SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types},
+  author={Mou, Yutao and Zhang, Shikun and Ye, Wei},
+  journal={arXiv preprint arXiv:2410.21965},
+  year={2024}
+}
+```
+
