@@ -59,3 +59,7 @@ CUDA_VISIBLE_DEVICES=1 python main_test.py \
      --eval_task safety_judgment \
      --attack
 ```
+
+There are a few parameters to note here: When you need to perform LLM inference, set --attack; when you need to evaluate the LLM generated content, set --evaluation
+
+
