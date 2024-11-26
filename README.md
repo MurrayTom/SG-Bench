@@ -9,7 +9,6 @@ SG-Bench is a multi-dimensional safety evaluation Benchmark to evaluate LLM Safe
 - [Usage](#Usage)
 
 ## Install
-Step1：
 Since our assessment framework is developed based on EasyJailbreak, we first need to configure EasyJailbreak
 ```shell
 git clone https://github.com/EasyJailbreak/EasyJailbreak.git
@@ -17,7 +16,7 @@ cd EasyJailbreak
 pip install -e .
 ```
 
-Step2：
+Next, you need to install some packages. We suggest that the python version >= 3.9
 ```shell
 pip install -r requirement
 ```
