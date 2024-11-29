@@ -19,7 +19,7 @@ parser.add_argument('--eval_task', default="original_query", type=str, choices=[
 parser.add_argument('--prompt_mode', default="", type=str, choices=["", "ToP", "RoP", "RoP_fewshot_general", "COT", "fewshot"])
 
 parser.add_argument('--openai_model_name', default="", type=str)
-parser.add_argument('--api_key', default="sk-viv3lQLoCNWGY6gj4cE78bF1D077491f9221A0E11d2f2986", type=str)
+parser.add_argument('--api_key', default="", type=str)
 parser.add_argument('--eval_by_gpt4', action="store_true", default=False)
 parser.add_argument('--multi_turn', action="store_true", default=False)
 parser.add_argument('--judge_model_path', default="/home/myt/Models/Llama-Guard-3-8B", type=str)
